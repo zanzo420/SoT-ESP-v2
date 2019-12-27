@@ -92,7 +92,40 @@
     <ClInclude Include="xor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\SoT_CoreUObject_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_Athena_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_Athena_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_Engine_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_Engine_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_AthenaAI_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_Athena_enums.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_Engine_enums.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_AthenaAI_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_CoreUObject_structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
     <ClInclude Include="SDK.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SoT_Basic.hpp">
       <Filter>SDK</Filter>
     </ClInclude>
   </ItemGroup>

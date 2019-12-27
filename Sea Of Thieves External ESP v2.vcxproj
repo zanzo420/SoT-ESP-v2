@@ -76,10 +76,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\</IntDir>
+    <SourcePath>G:\Git\Zanzo420\SoT-ESP-v2\SDK;$(SourcePath)</SourcePath>
+    <IncludePath>G:\Git\Zanzo420\SoT-ESP-v2\SDK;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Git\Zanzo420\SoT-ESP-v2\SDK;$(IncludePath)</IncludePath>
+    <SourcePath>G:\Git\Zanzo420\SoT-ESP-v2\SDK;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -158,6 +162,17 @@
     <ClInclude Include="Offsets.h" />
     <ClInclude Include="Process.h" />
     <ClInclude Include="SDK.hpp" />
+    <ClInclude Include="SDK\SoT_AthenaAI_classes.hpp" />
+    <ClInclude Include="SDK\SoT_AthenaAI_structs.hpp" />
+    <ClInclude Include="SDK\SoT_Athena_classes.hpp" />
+    <ClInclude Include="SDK\SoT_Athena_enums.hpp" />
+    <ClInclude Include="SDK\SoT_Athena_structs.hpp" />
+    <ClInclude Include="SDK\SoT_Basic.hpp" />
+    <ClInclude Include="SDK\SoT_CoreUObject_classes.hpp" />
+    <ClInclude Include="SDK\SoT_CoreUObject_structs.hpp" />
+    <ClInclude Include="SDK\SoT_Engine_classes.hpp" />
+    <ClInclude Include="SDK\SoT_Engine_enums.hpp" />
+    <ClInclude Include="SDK\SoT_Engine_structs.hpp" />
     <ClInclude Include="SotStuff.h" />
     <ClInclude Include="Vars.h" />
     <ClInclude Include="Vector.h" />

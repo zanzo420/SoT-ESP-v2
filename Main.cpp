@@ -84,7 +84,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 	hWnd = CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED | WS_EX_TOOLWINDOW| WS_EX_TRANSPARENT,
 		"WindowClass",
-		"RandomTitle",
+		"SoT-ESP-v2",
 		WS_POPUP,
 		Process->Position[0], Process->Position[1],
 		Process->Size[0], Process->Size[1],

@@ -12,7 +12,8 @@ void cDrawing::Draw()
 {
 	Cheat->readData();
 
-	String(std::string("Credits: Gummy8unny").c_str(), 10, Process->Size[1] - 20, D3DCOLOR_XRGB(0, 255, 0), false, "small");
+	String(std::string("[zH4x] SoT ESP v2 by Zanzo").c_str(), 10, Process->Size[1] - 40, D3DCOLOR_XRGB(0, 255, 0), false, "small");
+	String(std::string("(Special Thanks to Gummy8unny for the original base code!)").c_str(), 10, Process->Size[1] - 20, D3DCOLOR_XRGB(0, 255, 0), false, "small");
 	//String(std::to_string(directX->frames).c_str(), 100, 100, D3DCOLOR_XRGB(0, 255, 0), false, "small");
 
 	if (Vars.GUI)
